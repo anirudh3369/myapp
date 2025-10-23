@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "anirud3369/myapp"
+        DOCKER_IMAGE = "anirudh3369/myapp"
         // Use forward slashes to avoid Groovy escaping issues
         KUBE_CONFIG = "C:/ProgramData/.kube/config"
     }
